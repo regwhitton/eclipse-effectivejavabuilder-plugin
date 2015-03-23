@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: effectivejava-builder-proposal
+Bundle-SymbolicName: effectivejava-builder-proposal;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: effectivejava_builder_proposal.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.jdt.ui,
+ org.eclipse.jface.text,
+ org.eclipse.swt
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.jdt.core
