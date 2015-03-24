@@ -6,14 +6,17 @@ The extended version creates an additional template validate() method, which is 
 
 Field getters are not supplied for the outter class. Eclipse can add them for you if you require them.
 
-Download jar from [effectivejava-builder-proposal_1.0.0.201503230926.jar](download/effectivejava-builder-proposal_1.0.0.201503230926.jar?raw=true), drop into ECLIPSE_HOME/plugins/ and re-start eclipse.
+Download jar from [effectivejava-builder-proposal_1.0.0.201503241351.jar](download/effectivejava-builder-proposal_1.0.0.201503241351.jar?raw=true), drop into ECLIPSE_HOME/plugins/ and re-start eclipse.
 
 Within the class containing fields that requires a builder: type control+space and cursor down to "builder" or "builder with validation", and select.
 
-To build from source:
-* Download sources.
+To build from source (see warning below):
+* Download sources (as a zip or using 'git clone https://github.com/regwhitton/eclipse-effectivejavabuilder-plugin.git').
 * Import project into workspace.
 * Right click on project in package explorer, and select Export -> Plug-in Development -> Deployable plugin-ins and fragments -> Next -> Destination -> Install into host Repository (workspace/.metadata/.plugins/org.eclipse.pde.core/install/) -> Finish.
+
+**Warning**: there is a problem in current versions of Eclipse (Luna).  Once you do an export (or possibly when you exit Exclipse), the workspace loses the plugin dependencies.  I recommend creating a separate workspace and importing this project into it.  When the plugins disappear, exit Eclipse, delete the workspace directory, re-start Eclipse and re-import.
+
 
 Yes, this is a very simple plugin, and there is lots of room for improvement.  You could add option menus, templates and many many other things.  Good luck with that.
 

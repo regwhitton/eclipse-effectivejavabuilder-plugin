@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>content-assist-example</name>
-	<comment>see http://github.com/monperrus/content-assist-example</comment>
+	<name>eclipse-effectivejavabuilder-plugin</name>
+	<comment>see https://github.com/regwhitton/eclipse-effectivejavabuilder-plugin</comment>
 	<projects>
 	</projects>
 	<buildSpec>

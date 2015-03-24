@@ -10,3 +10,4 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.swt
 Bundle-ActivationPolicy: lazy
 Import-Package: org.eclipse.jdt.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
